@@ -5,10 +5,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "TravelWithMaki.com",
-  description: "Travel with Maki",
+  title: "Travel with Maki",
+  description: "Your go-to travel guide for exploring the world! 🌎 ",
 };
-
 export default function RootLayout({
   children,
 }: {
