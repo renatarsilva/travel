@@ -15,7 +15,11 @@ const Footer = () => {
               <FooterColumn title={columns.title}>
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">
                   {columns.links.map((link) => (
-                    <Link href="/" key={link}>
+                    <Link
+                      className=" text-green-700 hover:text-orange-600"
+                      href="/"
+                      key={link}
+                    >
                       {link}
                     </Link>
                   ))}
@@ -28,7 +32,7 @@ const Footer = () => {
                   <Link
                     href="/"
                     key={link.label}
-                    className="flex gap-4 md:flex-col lg:flex-row"
+                    className="flex gap-4 md:flex-col lg:flex-row text-green-700 hover:text-orange-600"
                   >
                     <p className="whitespace-nowrap">{link.label}</p>
                     <p className="medium-14 whitespace-nowrap text-blue-70">
@@ -41,9 +45,9 @@ const Footer = () => {
             <div className="flex flex-col gap-5">
               <FooterColumn title={SOCIALS.title}>
                 <ul className="regular-14 flex gap-4 text-gray-30">
-                  {SOCIALS.links.map((link) => (
-                    <Link href="/" key={link}>
-                      <Image src={link} alt="logo" width={24} height={24} />
+                  {SOCIALS.list.map(({ icon: Icon, link, name }) => (
+                    <Link href={link} key={`socials-${name}`}>
+                      <Icon className="w-6 h-6 text-green-700 hover:text-orange-600" />
                     </Link>
                   ))}
                 </ul>
