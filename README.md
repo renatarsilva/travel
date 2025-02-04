@@ -2,8 +2,6 @@
 
 ## Description
 
-Anime Vault is a streaming platform designed specifically for anime enthusiasts. It allows users to explore and rate the available programming. For this project, I utilized technologies such as JavaScript, React, Next.js, and Tailwind CSS.
-
 ## Functionalities
 
 - Watch anime with high performance
@@ -28,7 +26,7 @@ Anime Vault is a streaming platform designed specifically for anime enthusiasts.
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/renatarsilva/anime-vault.git
+git clone https://github.com/renatarsilva/travel.git
 ```
 
 ### 2. Navigate to the Project Directory
@@ -60,49 +58,12 @@ Access the application in your browser through the URL displayed in the terminal
 ## Project Structure
 
 ```
-├── app
-│   ├── _data.ts
-│   ├── action.tsx
-│   ├── favicon.ico
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-├── components
-│   ├── AnimeCard.tsx
-│   ├── Footer.tsx
-│   ├── Hero.tsx
-│   ├── LoadMore.tsx
-│   └── MotionDiv.tsx
-├── next-env.d.ts
-├── next.config.js
-├── package-lock.json
-├── package.json
-├── postcss.config.js
-├── public
-│   ├── anime.png
-│   ├── episodes.svg
-│   ├── hero.png
-│   ├── instagram.svg
-│   ├── logo.svg
-│   ├── next.svg
-│   ├── spinner.svg
-│   ├── star.svg
-│   ├── tiktok.svg
-│   ├── twitter.svg
-│   └── vercel.svg
-├── README.md
-├── tailwind.config.ts
-└── tsconfig.json
+
 ```
 
 ---
 
 ## Future Improvements
-
-- Add login and password functionality.
-- Integrate with payment APIs.
-- Expand shopping cart features.
-- Optimize for SEO and performance.
 
 ---
 
@@ -125,4 +86,4 @@ Contributions are welcome! Follow these steps:
 ---
 
 Fontes
-[1] anime-vault.git https://github.com/renatarsilva/anime-vault.git
+[1] anime-vault.git https://github.com/renatarsilva/travel.git
