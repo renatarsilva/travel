@@ -10,7 +10,7 @@ if (process.env.NODE_ENV === "development") {
 }
 
 export const metadata: Metadata = {
-  title: "Travel with Maki",
+  title: "Travel with Us",
   description: "Your go-to travel guide for exploring the world! 🌎 ",
 };
 export default function RootLayout({
