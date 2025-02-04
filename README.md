@@ -1,12 +1,14 @@
-# Travel
+# Travel With Maki
 
 ## Description
 
+Welcome to Travel with Maki, your go-to travel guide for exploring the world!
+
 ## Functionalities
 
-- Watch anime with high performance
-- Community platform, perfect for analyzing and discussing content
-- Stylish and responsive interface built with CSS and React components
+- Travel Platform
+- Purchase Travel Packages
+- Travel Guide
 
 ---
 
@@ -32,7 +34,7 @@ git clone https://github.com/renatarsilva/travel.git
 ### 2. Navigate to the Project Directory
 
 ```bash
-cd anime-vault
+cd travel
 ```
 
 ### 3. Install Dependencies
@@ -58,12 +60,77 @@ Access the application in your browser through the URL displayed in the terminal
 ## Project Structure
 
 ```
+ls --tree --ignore-glob="node_modules" --icon never
+.
+├── app
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── babel.config.js
+├── components
+│   ├── Button.tsx
+│   ├── Camp.tsx
+│   ├── Features.tsx
+│   ├── Footer.tsx
+│   ├── GetApp.tsx
+│   ├── Guide.tsx
+│   ├── Hero.tsx
+│   └── Navbar.tsx
+├── constants
+│   └── index.ts
+├── next-env.d.ts
+├── next.config.js
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── public
+│   ├── android.svg
+│   ├── apple.svg
+│   ├── boat.png
+│   ├── calendar.svg
+│   ├── camp.svg
+│   ├── close.svg
+│   ├── facebook.svg
+│   ├── feature-bg.png
+│   ├── folded-map.svg
+│   ├── hero-bg.svg
+│   ├── hero.png
+│   ├── hilink-logo.svg
+│   ├── img-1.png
+│   ├── img-2.png
+│   ├── instagram.svg
+│   ├── location.svg
+│   ├── map.svg
+│   ├── menu.svg
+│   ├── meter.svg
+│   ├── pattern-bg.png
+│   ├── pattern.png
+│   ├── person-1.png
+│   ├── person-2.png
+│   ├── person-3.png
+│   ├── person-4.png
+│   ├── phone.png
+│   ├── phones.png
+│   ├── play.svg
+│   ├── quote.svg
+│   ├── star.svg
+│   ├── tech.svg
+│   ├── twitter.svg
+│   ├── user.svg
+│   ├── wordpress.svg
+│   └── youtube.svg
+├── README.md
+├── tailwind.config.ts
+└── tsconfig.json
 
 ```
 
 ---
 
 ## Future Improvements
+
+- Create a back-end with user information
+- API integrated with Google Maps
 
 ---
 
