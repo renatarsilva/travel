@@ -1,156 +1,75 @@
-# Travel With Maki
+# ✈️ Travel
 
-## Description
+🚀 **Travel** is an application designed to make it easier to plan and discover new travel destinations. With a modern and intuitive interface, you can explore destinations, view details about tourist spots, and find essential information for your next adventure.
 
-Welcome to Travel with Maki, your go-to travel guide for exploring the world!
+## 📌 **Features**
 
-## Functionalities
+- 🌍 Explore tourist destinations
+- 🏙️ Detailed information about locations
+- 📌 Interactive maps for navigation
+- 💬 Recommendations and reviews from other travelers
+- 🎨 Responsive and modern UI
 
-- Travel Platform
-- Purchase Travel Packages
-- Travel Guide
+## 🛠️ **Technologies Used**
 
----
+**Travel** was developed using the following technologies:
 
-## Technologies Used
+- **React.js** ⚛️ - Framework for building the UI
+- **Tailwind CSS** 🎨 - Efficient and modern styling
+- **Next**
 
-- React: Framework for building dynamic user interfaces.
-- Tailwind CSS: Framework for fast and responsive styling.
-- JavaScript (ES6+): Data manipulation and business logic.
-- TypeScript: Optional support for static typing.
+## 🚀 **How to Run the Project**
 
----
+### 📌 **Prerequisites**
 
-## How to Run the Project
+Before starting, make sure you have installed:
 
-### 1. Clone the Repository
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
 
-Clone the repository to your local machine:
+### 📥 **Step-by-Step Guide**
 
-```bash
-git clone https://github.com/renatarsilva/travel.git
-```
+1. **Clone the repository**
 
-### 2. Navigate to the Project Directory
+   ```sh
+   git clone https://github.com/renatarsilva/travel.git
+   cd travel
+   ```
 
-```bash
-cd travel
-```
+2. **Install dependencies**
 
-### 3. Install Dependencies
+   ```sh
+   npm install
+   ```
 
-Use npm or yarn to install the dependencies:
+3. **Set up APIs**
 
-```bash
-npm install
-```
+   - If using an external API for maps or geolocation, create a `.env` file in the project root and add:
+     ```env
+     VITE_API_KEY=YOUR_API_KEY_HERE
+     ```
+   - Replace `"YOUR_API_KEY_HERE"` with the corresponding API key.
 
-### 4. Start the Application
+4. **Run the project**
+   ```sh
+   npm run dev
+   ```
+   The project will be running at `http://localhost:5173`.
 
-Run the project locally:
+## 🤝 **Contributing**
 
-```bash
-npm run dev
-```
+Contributions are welcome! Feel free to open issues and submit pull requests.
 
-Access the application in your browser through the URL displayed in the terminal (usually [http://localhost:3000](http://localhost:3000)).
+1. **Fork the project**
+2. Create a **branch** (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'Adding new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a **Pull Request**
 
----
+## 📜 **License**
 
-## Project Structure
-
-```
-ls --tree --ignore-glob="node_modules" --icon never
-.
-├── app
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-├── babel.config.js
-├── components
-│   ├── Button.tsx
-│   ├── Camp.tsx
-│   ├── Features.tsx
-│   ├── Footer.tsx
-│   ├── GetApp.tsx
-│   ├── Guide.tsx
-│   ├── Hero.tsx
-│   └── Navbar.tsx
-├── constants
-│   └── index.ts
-├── next-env.d.ts
-├── next.config.js
-├── package-lock.json
-├── package.json
-├── postcss.config.js
-├── public
-│   ├── android.svg
-│   ├── apple.svg
-│   ├── boat.png
-│   ├── calendar.svg
-│   ├── camp.svg
-│   ├── close.svg
-│   ├── facebook.svg
-│   ├── feature-bg.png
-│   ├── folded-map.svg
-│   ├── hero-bg.svg
-│   ├── hero.png
-│   ├── hilink-logo.svg
-│   ├── img-1.png
-│   ├── img-2.png
-│   ├── instagram.svg
-│   ├── location.svg
-│   ├── map.svg
-│   ├── menu.svg
-│   ├── meter.svg
-│   ├── pattern-bg.png
-│   ├── pattern.png
-│   ├── person-1.png
-│   ├── person-2.png
-│   ├── person-3.png
-│   ├── person-4.png
-│   ├── phone.png
-│   ├── phones.png
-│   ├── play.svg
-│   ├── quote.svg
-│   ├── star.svg
-│   ├── tech.svg
-│   ├── twitter.svg
-│   ├── user.svg
-│   ├── wordpress.svg
-│   └── youtube.svg
-├── README.md
-├── tailwind.config.ts
-└── tsconfig.json
-
-```
+This project is licensed under the MIT License. For more details, check the [LICENSE](LICENSE) file.
 
 ---
 
-## Future Improvements
-
-- Create a back-end with user information
-- API integrated with Google Maps
-
----
-
-## License
-
-This project is licensed under the MIT License. Feel free to use and modify it.
-
----
-
-## Contributions
-
-Contributions are welcome! Follow these steps:
-
-1. Fork the project.
-2. Create a branch for the new feature: `git checkout -b feature/new-feature`.
-3. Commit your changes: `git commit -m 'Add new feature'`.
-4. Push your changes: `git push origin feature/new-feature`.
-5. Open a Pull Request.
-
----
-
-Fontes
-[1] anime-vault.git https://github.com/renatarsilva/travel.git
+Let me know if you need any modifications! 🚀✈️
